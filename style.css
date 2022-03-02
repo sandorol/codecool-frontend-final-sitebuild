@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	outline: none;
+	text-decoration: none;
+	outline: none;
+
+	font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+	}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+button,
+a {
+	cursor: pointer;
+	color: inherit;
+}
+
+textarea {
+	resize: none;
+}
+
+textarea,
+select {
+	appearance: none !important;
+	-webkit-appearance: none !important;
+	border-radius: 0;
+}
+
+body {
+    
+    background-color:#f8f7f3;
+}
+
+.topnav {
+    position: fixed;
+    
+    width: 100%;
+    height: 40px;
+    
+    background-color: #1a24fb;
+    border-bottom: 1px solid #f8f7f3;
+
+    z-index: 20;
+}
+
+.brand {
+    
+    position:absolute;
+    left: 12px;
+    top: 12px;
+    
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    
+    color: #f8f7f3;    
+    
+}
+
+.topnav button.material-icons.md-36 {
+    
+    position:absolute;
+    top: 8px;
+    right: 12px;
+
+    color: #f8f7f3;
+    background-color: #1a24fb;
+    font-size: 24px;    
+  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    position: absolute;
+    align-items: center;
+    justify-content: center;     
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.card {
+    
+    position: relative;
+    border: 0.15rem solid #1a24fb;
+    width: 400px;
+    margin: 30px;
+    background-color: #f8f7f3;
+    padding: 40px;
+}
+
+.number {
+    display: flex;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    border: 0.15rem solid #f8f7f3;
+   
+   
+    background-color: #f8f7f3;
+    color:#1a24fb;
+
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.textcontainer {
+    margin: 30px;
+}
+
+.title {
+    padding-bottom: 10px;
+    min-height: 90px;
+    
+    color: #1a24fb;
+    border-bottom: 0.1rem solid #1a24fb;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.sub {
+    
+    padding-top: 20px;
+    color: #1a24fb;
+
+    font-size: 12px;
+    letter-spacing: 0.2em;
+}
+
+.text {
+    padding-bottom: 20px;
+    color: #1a24fb;
+
+    font-size: 16px;
+  }
+
+.card button {
+    position: absolute;
+    bottom: -22px;
+    left: 0px;
+    width: 100%;
+    height: 18px;
+    text-align: left;
+    font-size: 14px;
+
+    color: #1a24fb;
+    background-color:#f8f7f3;
+
+ 
+}
+
+.card button .material-icons.md-36 {
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    color: #1a24fb;
+    font-size: 18px; 
+}
+
+button:hover {
+    color: #f8f7f3;
+    background-color:#1a24fb;
+    
+}
+
+button:hover .material-icons.md-36 {
+    color:#f8f7f3;
+}
