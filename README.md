@@ -1,1 +1,1 @@
-# bestbeers_vizsga
+# new york times exam
